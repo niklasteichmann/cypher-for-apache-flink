@@ -8,7 +8,7 @@ object GraphSources {
     rootPath: String,
     filesPerTable: Option[Int] = Some(1)
   )(implicit session: CAPFSession) = FSGraphSources(rootPath, filesPerTable)
-  
+
 }
 
 object FSGraphSources {
