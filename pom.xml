@@ -27,8 +27,15 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/opencypher/cypher-for-apache-spark</url>
+    <url>https://github.com/soerenreichardt/cypher-for-apache-flink</url>
   </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>dbleipzig</id>
+      <url>https://wdiserv1.informatik.uni-leipzig.de:443/archiva/repository/dbleipzig/</url>
+    </repository>
+  </distributionManagement>
 
   <developers>
     <developer>
